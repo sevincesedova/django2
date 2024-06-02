@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>{% block page_title%}
+        My Site
+        {% endblock page_title%}
+    </title>
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <nav class="nav">
+                    <div class="logo">
+                        <img src="https://png.pngtree.com/png-vector/20231020/ourmid/pngtree-watercolor-library-book-clip-art-png-image_10285452.png" alt="">
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="{%url 'home'%}">Home</a></li>
+                            <li><a href="{%url 'about'%}">About</a></li>
+                            <li><a href="{%url 'contact'%}">Contact</a></li>
+                            <li><a href="{%url 'account:login'%}">Login</a></li>
+                            <li><a href="{%url 'account:register'%}">Register</a></li>
+                            <li><a href="{%url 'account:logout'%}"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    {% block body%}
+    <h1>hello</h1>
+    {% endblock body%}
+</body>
+</html>

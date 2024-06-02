@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Duru+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/*  */
+.bookk{
+    margin:0px auto;
+    width: 800px;
+    max-width: 90%;
+    text-align: center;
+    
+    
+}
+.bookk ul li{
+    /* width:600px; */
+    padding: 30px;
+    
+
+
+}
+.bookk ul li p{
+    height: 80px;
+    font-size: 14px;
+    background-color: rgb(215, 238, 246);
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+.bookk ul li h2{
+    font-family: "Duru Sans", sans-serif;
+    font-size: 20px;
+}
+small{
+    font-size: 10px;
+    color: rgb(154, 149, 149);
+    
+}
+.book_author{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+.author{
+    font-size: 12px;
+    font-family: "Duru Sans", sans-serif;
+    text-align: left;
+    padding: 10px 0px ;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.icons  a  :hover{
+    color: rgb(60, 114, 206);
+}
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.logo img{
+    width: 50px;
+    /* height: 30px; */
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+i:hover{
+    transform: scale(0.8);
+}
+.navbar{
+    background-color: rgb(83, 130, 161);
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.links ul a{
+    color: white;
+}
+.bt{
+    background-color: rgb(3, 161, 173);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: none;
+    
+}
